@@ -8,3 +8,4 @@
 - `npm start` and click `localhost:8000`
 - insert `<p>Total number of phones: 2</p>` into app/index.html
 - refresh the webpage
+- `git push --set-upstream origin step-1-Static-Template-me`
