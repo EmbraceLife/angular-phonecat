@@ -4,6 +4,8 @@
   - [create a new branch to keep track](#create-a-new-branch-to-keep-track)
   - [`npm install` has update problem](#npm-install-has-update-problem)
   - [`npm start` to see the starting point](#npm-start-to-see-the-starting-point)
+  - [What the code is doing?](#what-the-code-is-doing)
+  - [Bootstrapping AngularJS Applications](#bootstrapping-angularjs-applications)
 
 # 0-Bootstrappting steps
 
@@ -35,3 +37,15 @@
 - `npm start` to start the web server
 - if sees the blank webpage with a line of text 'Nothing here yet!', then it works
 - we can see the index.html source page [here](./app/index.html)
+
+## What the code is doing?
+
+`ng-app` attribute: `<html ng-app>`
+
+`angular.js`script tag: `<script src='lib/angular/angular.js"></script>`
+
+double-curly binding with an expression: `nothing here {{'yet' + '!'}}`
+
+## Bootstrapping AngularJS Applications
+
+no idea what it is talking about! come back often!!!
