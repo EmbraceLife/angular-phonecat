@@ -10,6 +10,9 @@
   </head>
   <body ng-controller="PhoneListController">
 
+    <p>Hello, {{name}}!</p>
+    <p>Total number of phones: {{phones.length}}</p>
+
     <ul>
       <li ng-repeat="phone in phones">
         <span>{{phone.name}}</span>
@@ -17,5 +20,15 @@
       </li>
     </ul>
 
+    <table>
+      <tr><th>Row number</th></tr>
+      <tr ng-repeat="i in [0, 1, 2, 3, 4, 5, 6, 7]"><td>{{i+1}}</td></tr>
+    </table>
+
+    <table>
+        <tr><th>Matrix number</th></tr>
+        <tr><th ng-repeat="d in ['a ', 'b ', 'c ', 'd ', 'e ', 'f ', 'g', 'h']">{{d}}</th></tr>
+        <tr ng-repeat="i in [0, 1, 2, 3, 4, 5, 6, 7]"><td ng-repeat="d in ['a ', 'b ', 'c ', 'd ', 'e ', 'f ', 'g ', 'h']">{{i}}</td></tr>
+    </table>
   </body>
 </html>

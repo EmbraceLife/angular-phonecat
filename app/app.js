@@ -15,6 +15,10 @@ phonecatApp.controller('PhoneListController', function PhoneListController($scop
     }, {
       name: 'MOTOROLA XOOM™',
       snippet: 'The Next, Next Generation tablet.'
+    }, {
+      name: 'iPhone 11',
+      snippet: 'The one before 5G iphone.'
     }
   ];
+  $scope.name = 'world';
 });

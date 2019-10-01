@@ -8,7 +8,8 @@ describe('PhoneListController', function() {
     var scope = {};
     var ctrl = $controller('PhoneListController', {$scope: scope});
 
-    expect(scope.phones.length).toBe(3);
+    expect(scope.phones.length).toBe(4);
+    expect(scope.name).toBe('world');
   }));
 
 });
